@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ColorViewController.swift
 //  QuartzTest
 //
 //  Created by Hunter Stanton on 6/2/17.
