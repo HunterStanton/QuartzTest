@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class ColorViewController: NSViewController {
     
 
     /// The label that displays "Hunter Stanton was here" in the main view.

@@ -85,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--View Controller-->
+        <!--Quartz Test-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="QuartzTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Quartz Test" id="XfG-lQ-9wD" customClass="ColorViewController" customModule="QuartzTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="511" height="293"/>
                         <autoresizingMask key="autoresizingMask"/>
