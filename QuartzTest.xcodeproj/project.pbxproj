@@ -52,13 +52,53 @@
 		7C8D54F81EE19FD90065BFFD /* QuartzTest */ = {
 			isa = PBXGroup;
 			children = (
-				7C8D54F91EE19FD90065BFFD /* AppDelegate.swift */,
-				7C8D54FB1EE19FD90065BFFD /* ColorViewController.swift */,
-				7C8D54FD1EE19FD90065BFFD /* Assets.xcassets */,
-				7C8D54FF1EE19FD90065BFFD /* Main.storyboard */,
-				7C8D55021EE19FD90065BFFD /* Info.plist */,
+				7C8D550A1EE1AE760065BFFD /* Assets */,
+				7C8D55091EE1AE6E0065BFFD /* Controllers */,
+				7C8D55081EE1AE660065BFFD /* Delegates */,
+				7C8D550B1EE1AE7E0065BFFD /* Storyboards */,
+				7C8D550C1EE1AE870065BFFD /* Support */,
 			);
 			path = QuartzTest;
+			sourceTree = "<group>";
+		};
+		7C8D55081EE1AE660065BFFD /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7C8D54F91EE19FD90065BFFD /* AppDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		7C8D55091EE1AE6E0065BFFD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7C8D54FB1EE19FD90065BFFD /* ColorViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7C8D550A1EE1AE760065BFFD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7C8D54FD1EE19FD90065BFFD /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		7C8D550B1EE1AE7E0065BFFD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7C8D54FF1EE19FD90065BFFD /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		7C8D550C1EE1AE870065BFFD /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				7C8D55021EE19FD90065BFFD /* Info.plist */,
+			);
+			name = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
