@@ -90,15 +90,11 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="QuartzTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="511" height="293"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vN-gv-5ua">
-                                <rect key="frame" x="163" y="126" width="154" height="17"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="17" id="NKx-7M-qJD"/>
-                                    <constraint firstAttribute="width" constant="150" id="pkX-Jb-rhV"/>
-                                </constraints>
+                                <rect key="frame" x="178" y="138" width="154" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Hunter Stanton was here" id="8hj-LC-u1E">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -107,8 +103,8 @@
                             </textField>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="9vN-gv-5ua" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="8LZ-Bl-aGl"/>
-                            <constraint firstItem="9vN-gv-5ua" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="noV-fU-mMa"/>
+                            <constraint firstItem="9vN-gv-5ua" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="Xgv-hn-0kt"/>
+                            <constraint firstItem="9vN-gv-5ua" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="d4K-hT-kMU"/>
                         </constraints>
                     </view>
                     <connections>
@@ -117,7 +113,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="81.5" y="660.5"/>
         </scene>
     </scenes>
 </document>

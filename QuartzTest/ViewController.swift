@@ -78,13 +78,17 @@ class ViewController: NSViewController {
         }
     }
     
+    
+    /// Generates a random color that is neither black nor white.
+    ///
+    /// - Returns: The random color that was generated.
     func generateRandomColor() -> CGColor {
         
         // Use Arc4Random to generate a random number in between 0 and 255
         // Divide all numbers by 256 to make sure that they stay between 1.0 and 0.0 due to these values only being valid in that range
         let randomHue : CGFloat = CGFloat(arc4random() % 256) / 256
         
-        // Add 0.5 to these values to avoid returning a black or a white value
+        // Add 0.5 to these values to avoid returning a mostly black or a white value
         let randomBrightness : CGFloat = CGFloat(arc4random() % 128) / 256 + 0.5
         let randomSaturation : CGFloat = CGFloat(arc4random() % 128) / 256 + 0.5
         
