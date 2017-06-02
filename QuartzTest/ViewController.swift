@@ -11,6 +11,7 @@ import Cocoa
 class ViewController: NSViewController {
     
 
+    /// The label that displays "Hunter Stanton was here" in the main view.
     @IBOutlet weak var HSWasHereLabel: NSTextField!
     
     override func viewDidLoad() {
@@ -43,7 +44,7 @@ class ViewController: NSViewController {
         // MARK: - HSWasHereLabel border color animation
         
         // Enable the border of the HSWasHereLabel textfield
-        HSWasHereLabel.layer?.borderWidth = 2.0
+        HSWasHereLabel.layer?.borderWidth = 1.0
         
         // Round the corners of the CAKeyframeAnimation
         HSWasHereLabel.layer?.cornerRadius = 5.0
@@ -67,7 +68,11 @@ class ViewController: NSViewController {
         changeBorderColorAnim.calculationMode = kCAAnimationCubic
         
         // Add a sublayer to the HSWasHereLabel's layer
-        self.HSWasHereLabel.layer?.add(changeBorderColorAnim, forKey: "changeColorsAnim")
+        self.HSWasHereLabel.layer?.add(changeBorderColorAnim, forKey: "changeBorderColorsAnim")
+        
+        // MARK: - After animation stuff
+        
+        print("Animations started!")
         
         
     }
